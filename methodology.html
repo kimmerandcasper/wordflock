@@ -15,17 +15,24 @@
             width: 200px;
             margin-top: 10px;
         }
-        .content {
-            margin: 20px 0;
+        .mission-statement, .content {
+            margin: 20px auto; /* Centers both mission-statement and content */
             font-size: 18px;
             font-family: Georgia, serif;
-            color: black; /* Ensuring text is black for readability */
+            max-width: 600px; /* Sets a maximum width for both divs */
+        }
+        .mission-statement {
+            font-size: 18px; /* Additional styling specific to mission-statement */
+        }
+        .content {
+            text-align: left; /* Aligns the text to the left within the center-aligned content div */
         }
         hr {
             border: 0;
             height: 1px;
             background-color: black; /* Black line separator */
-            margin: 20px 0; /* Space above and below the line */
+            margin: 20px auto; /* Centers the line horizontally and adds space */
+            width: 100%; /* Line spans the full width of the content area */
         }
     </style>
 </head>
