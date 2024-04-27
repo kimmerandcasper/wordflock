@@ -11,14 +11,15 @@
             padding: 20px;
             background-color: #D2DFF1;
         }
-        img.logo, img.pdf-icon {
-            width: 300px; /* Consistent size for logo, adjust size for PDF icon as needed */
+        img.logo {
+            width: 300px; /* Consistent size for logo */
             margin-top: 15px;
         }
         img.pdf-icon {
-            width: 50px; /* Specific size for PDF icon */
+            width: 150px; /* Enlarged to 3x the initial size (initially 50px) */
             height: auto; /* Maintain aspect ratio */
-            margin-top: 0; /* Adjust top margin for PDF icon */
+            display: block; /* Ensures the icon is a block-level element for centering */
+            margin: 20px auto; /* Centers the icon horizontally */
         }
         .mission-statement, .content {
             margin: 20px auto;
@@ -27,7 +28,7 @@
             max-width: 600px;
         }
         .content {
-            text-align: left;
+            text-align: center; /* Center-aligns the text and content within */
         }
         hr {
             border: 0;
@@ -37,15 +38,15 @@
             width: 100%;
         }
         a.pdf-download {
-            color: black; /* Style the link color if needed */
+            color: black; /* Maintain link color */
             text-decoration: none; /* No underline */
             font-size: 18px;
             font-family: Georgia, serif;
-            display: inline-block; /* Make the link block to allow centering */
+            display: block; /* Block display for better control of positioning */
         }
         .poll-title {
             font-size: 24px; /* Larger font size for the title */
-            font-weight: bold; /* Make the font bold */
+            font-weight: bold; /* Bold font */
             text-transform: uppercase; /* All caps */
             margin: 20px 0; /* Spacing around the title */
             color: black; /* Black color for the title */
@@ -64,7 +65,6 @@
         <br><br>
         <a href="The_Homeless_Poll_Methodology.pdf" download class="pdf-download">
             <img src="PDFicon.png" alt="Download PDF" class="pdf-icon">
-            Download The Homeless Poll Methodology
         </a>
     </div>    
 </body>
