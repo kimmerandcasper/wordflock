@@ -20,9 +20,16 @@
             font-size: 18px;
             font-family: Georgia, serif;
         }
+        .poll-label {
+            font-family: Georgia, serif;
+            color: black;
+            display: inline-block;
+            margin-right: 10px; /* Spacing between the text and the button */
+            vertical-align: middle; /* Aligns text vertically with the button */
+        }
         button {
-            display: block;
-            width: 200px;
+            display: inline-block;
+            width: 250px; /* Width increased to 250px which is 25% wider */
             padding: 15px 10px; /* 15% bigger in height only */
             margin: 30px auto; /* Increased spacing between buttons */
             background-color: white; /* Button background color changed to white */
@@ -45,7 +52,9 @@
         Making the world a better place by finding the truth on issues that matter!
     </div>
     <button onclick="window.location.href='methodology.html';">METHODOLOGY</button>
-    <button onclick="window.location.href='homeless-poll.html';">THE HOMELESS POLL</button>
-    <button onclick="window.location.href='age-of-consent-poll.html';">AGE OF CONSENT POLL</button>
+    <span class="poll-label">POLL -&gt;</span>
+    <button onclick="window.location.href='homeless-poll.html';">THE HOMELESS</button><br>
+    <span class="poll-label">POLL -&gt;</span>
+    <button onclick="window.location.href='age-of-consent-poll.html';">AGE OF CONSENT</button>
 </body>
 </html>
