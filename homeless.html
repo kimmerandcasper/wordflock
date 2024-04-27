@@ -15,6 +15,11 @@
             width: 300px; /* Consistent size for logo, adjust size for PDF icon as needed */
             margin-top: 15px;
         }
+        img.pdf-icon {
+            width: 50px; /* Specific size for PDF icon */
+            height: auto; /* Maintain aspect ratio */
+            margin-top: 0; /* Adjust top margin for PDF icon */
+        }
         .mission-statement, .content {
             margin: 20px auto;
             font-size: 18px;
@@ -36,6 +41,7 @@
             text-decoration: none; /* No underline */
             font-size: 18px;
             font-family: Georgia, serif;
+            display: inline-block; /* Make the link block to allow centering */
         }
     </style>
 </head>
@@ -48,8 +54,8 @@
     <div class="content">
         This poll is conducted solely in person to protect against bot and activists contamination. Download the PDF file below for The Homeless Poll methodology and survey questions.
         <br><br>
-        <a href="The_Homeless_Poll_Methodology.pdf" download>
-            <img src="pdf-icon.png" alt="Download PDF" class="pdf-icon" style="width: 50px; height: auto;">
+        <a href="The_Homeless_Poll_Methodology.pdf" download class="pdf-download">
+            <img src="PDFicon.png" alt="Download PDF" class="pdf-icon">
             Download The Homeless Poll Methodology
         </a>
     </div>    
