@@ -12,8 +12,8 @@
             background-color: #D2DFF1;
         }
         img.logo {
-            width: 300px; /* Consistent size for logo */
-            margin-top: 15px; /* Adjusted margin */
+            width: 300px; /* Increased from 200px to 300px, which is a 50% increase */
+            margin-top: 15px; /* Slightly increased margin to accommodate larger image */
         }
         .mission-statement {
             margin: 20px 0;
@@ -22,26 +22,26 @@
         }
         button {
             display: block; /* Ensures that buttons are stacked */
-            width: 300px; /* Increased width to accommodate longer text */
+            width: 250px; /* Width increased to 250px which is 25% wider */
             padding: 15px 10px; /* 15% bigger in height only */
-            margin: 30px auto; /* Centered with increased spacing */
-            background-color: white; /* White background */
-            color: black; /* Black text color */
-            border: 1px solid black; /* Black border */
-            border-radius: 5px; /* Rounded corners */
-            cursor: pointer; /* Pointer cursor on hover */
+            margin: 30px auto; /* Increased spacing between buttons, centered */
+            background-color: white; /* Button background color changed to white */
+            color: black; /* Button text color changed to black */
+            border: 1px solid black; /* Black border added */
+            border-radius: 5px;
+            cursor: pointer;
             font-family: Georgia, serif;
-            font-size: 100%; /* Adjusted font size to fit text on one line */
+            font-size: 125%; /* Text 25% bigger */
         }
         button:hover {
-            background-color: #f8f8f8; /* Lighter shade on hover */
+            background-color: #f8f8f8; /* A lighter shade for hover */
             border-color: #333; /* Slightly darker border color on hover */
         }
         hr {
             border: 0;
             height: 1px;
             background-color: black; /* Black line separator */
-            margin: 20px auto; /* Centers the line horizontally */
+            margin: 20px auto; /* Centers the line horizontally and adds space */
             width: 100%; /* Line spans the full width of the content area */
         }
     </style>
@@ -49,9 +49,10 @@
 <body>
     <img src="WordFlockLogo.png" alt="Wordflock Logo" class="logo">
     <div class="mission-statement">
-        Making the world a better place through the power of prayer!
+        Making the world a better place by finding the truth on issues that matter!
     </div>
     <hr> <!-- Black line separator -->
+    <button onclick="window.location.href='about-wordflock.html';">ABOUT WORDFLOCK</button>
     <button onclick="window.location.href='ThePowerOfPrayer.html';">THE POWER OF PRAYER</button>
 </body>
 </html>
