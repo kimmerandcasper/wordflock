@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Trial Run</title>
+    <title>Alaska Plan</title>
     <style>
         body {
             font-family: Georgia, serif;
@@ -14,28 +14,16 @@
         img.logo {
             width: 300px;
             margin-top: 15px;
-        }
-        .mission-statement {
-            margin: 20px 0;
-            font-size: 18px;
-            font-family: Georgia, serif;
-        }
-        button {
             display: block;
-            width: 300px; /* Consistent width for better alignment */
-            padding: 15px 10px;
-            margin: 30px auto;
-            background-color: white;
-            color: black;
-            border: 1px solid black;
-            border-radius: 5px;
-            cursor: pointer;
-            font-family: Georgia, serif;
-            font-size: 125%;
+            margin-left: auto;
+            margin-right: auto;
         }
-        button:hover {
-            background-color: #f8f8f8;
-            border-color: #333;
+        .mission-statement, .content, .section {
+            margin: 20px auto;
+            width: 90%;
+            max-width: 600px;
+            text-align: left;
+            font-size: 16px;
         }
         hr {
             border: 0;
@@ -44,15 +32,40 @@
             margin: 20px auto;
             width: 100%;
         }
+        .section-heading {
+            font-size: 18px;
+            font-weight: bold;
+            margin-top: 20px;
+            text-align: center;
+        }
+        .section {
+            margin-top: 10px;
+        }
     </style>
 </head>
 <body>
     <img src="WordFlockLogo.png" alt="Wordflock Logo" class="logo">
     <div class="mission-statement">
-        Join our Trial Runs and discover the impact firsthand!
+        Alaska Plan Overview
     </div>
     <hr>
-    <button onclick="window.location.href='yakimaTrial.html';">YAKIMA TRIAL</button>
-    <button onclick="window.location.href='alaskaPlan.html';">ALASKA PLAN</button>
+    <div class="content">
+        <div class="section-heading">Likely Route</div>
+        <div class="section">
+            Richland to Seattle. Seattle to Boston Bar, BC. Boston Bar to Kersley, Kersley to Fraser Lake, Fraser Lake to Kitwanga, Kitwanga to Hyder Alaska. Now I know this is 6 stops, but I want to factor in mistakes.
+        </div>
+        <div class="section-heading">Gas</div>
+        <div class="section">
+            I know I can travel roughly 1 hour and 30 minutes on 1 tank. This means that I need gas destinations roughly every 1 hour and 30 minutes out, which Canada may not provide. In that event, I'll need a gas canister to haul for a section of the trip.
+        </div>
+        <div class="section-heading">Gas Route</div>
+        <div class="section">
+            From my research, it looks like there should be gas every 45 minutes even in northern Canada near Hyder. However, before each location, I should do research to double-check hours and operation status.
+        </div>
+        <div class="section-heading">Money / Currency</div>
+        <div class="section">
+            Canadian money is required. They don't take American cash. And gas is much more expensive there, so I may have to do begging in Hyder for more additional funds. I also would like to stay an extra day in Hyder to regain my stregnth and beg if I need to.
+        </div>
+    </div>
 </body>
 </html>
