@@ -15,15 +15,17 @@
             width: 300px;
             margin-top: 15px;
         }
+        .image-container {
+            margin-top: 20px;
+        }
         img.main-image {
             width: 300px;
             height: 300px;
-            margin-top: 20px;
         }
         img.pdf-icon {
             width: 50px;
             height: 50px;
-            margin-top: 20px;
+            margin-top: 20px; /* ensures spacing between the map image and the PDF icon */
         }
         .mission-statement {
             margin: 20px 0;
@@ -52,10 +54,12 @@
         Yakima Trial Overview
     </div>
     <hr>
-    <img src="yakimaTrialMap.png" alt="Yakima Trial Image" class="main-image">
-    <a href="yakimaTrialPages.pdf" download>
-        <img src="PDFicon.png" alt="Download PDF" class="pdf-icon">
-    </a>
+    <div class="image-container">
+        <img src="yakimaTrialMap.png" alt="Yakima Trial Image" class="main-image">
+        <a href="yakimaTrialPages.pdf" download>
+            <img src="PDFicon.png" alt="Download PDF" class="pdf-icon">
+        </a>
+    </div>
     <div class="content">
         This text is a placeholder for detailed information about the Yakima Trial, which will be added here. The details will include objectives, methodology, expected outcomes, and how participants can get involved.
     </div>
